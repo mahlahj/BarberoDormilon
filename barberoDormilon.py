@@ -1,6 +1,7 @@
 import threading
 import time
 import random
+import keyboard
 import queue # módulo queue para get y put, seguro de usar.
 
 BARBEROS = 1 # monto de BARBEROS, se puede cambiar.
@@ -87,5 +88,6 @@ if __name__ == "__main__":
 	Barbero.alto_completo.set() # permite finalizar el trabajo del barbero.
 	with Barbero.condicion:
 		Barbero.condicion.notify_all() # despierta en caso de que alguno esté dormido para terminar.
-
+	
 	print("La Barbería está cerrada.")
+	keyboard.wait("esc")
