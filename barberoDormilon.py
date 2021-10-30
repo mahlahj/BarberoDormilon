@@ -67,7 +67,7 @@ class Cliente(threading.Thread):
 
 
 if __name__ == "__main__":
-	TODOS_CLIENTES = []          # list of all CLIENTES for the day
+	TODOS_CLIENTES = []          # lista de todos CLIENTES a atender.
 	sala_espera = queue.Queue(ASIENTOS) # tamaño maximo de ASIENTOS, elimina la necesidad de Queue.qsize() antes de Queue.put()
 
 	for i in range(BARBEROS): # crea el hilo barbero.
