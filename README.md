@@ -11,4 +11,4 @@ Arroja mensajes sobre:
 ---
 Juega y diviértete con él, y no se te olvide:
 > Si puedes imaginarlo ¡PUEDES PROGRAMARLO!.
-> Alejandro Taboada, Programación ATS.
+> -- Alejandro Taboada, Programación ATS.
