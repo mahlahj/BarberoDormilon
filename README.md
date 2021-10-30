@@ -10,5 +10,5 @@ Arroja mensajes sobre:
   * Cuándo se va el cliente, sea por atención o por falta de espacio en la sala de espera.
 ---
 Juega y diviértete con él, y no se te olvide:
-> Si puedes imaginarlo ¡PUEDES PROGRAMARLO!.
-> --- Alejandro Taboada, Programación ATS.
+> Si puedes imaginarlo ¡PUEDES PROGRAMARLO!.\
+> — Alejandro Taboada, Programación ATS.
